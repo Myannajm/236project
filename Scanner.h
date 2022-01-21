@@ -28,10 +28,10 @@ public:
         int size;
         while(input.length() > 0){
             while (isspace(input.at(0))){
+                if(input.at(0) == '\n'){
+                    line += 1;
+                }
                 input = input.substr(1);
-            }
-            if(input.at(0) == '\n'){
-                line += 1;
             }
             switch(input.at(0)){
                 case ',':
