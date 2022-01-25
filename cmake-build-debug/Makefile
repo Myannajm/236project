@@ -129,6 +129,54 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/build
 .PHONY : 236project1_0/fast
 
+AddAutomaton.o: AddAutomaton.cpp.o
+.PHONY : AddAutomaton.o
+
+# target to build an object file
+AddAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/AddAutomaton.cpp.o
+.PHONY : AddAutomaton.cpp.o
+
+AddAutomaton.i: AddAutomaton.cpp.i
+.PHONY : AddAutomaton.i
+
+# target to preprocess a source file
+AddAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/AddAutomaton.cpp.i
+.PHONY : AddAutomaton.cpp.i
+
+AddAutomaton.s: AddAutomaton.cpp.s
+.PHONY : AddAutomaton.s
+
+# target to generate assembly for a file
+AddAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/AddAutomaton.cpp.s
+.PHONY : AddAutomaton.cpp.s
+
+ColonAutomaton.o: ColonAutomaton.cpp.o
+.PHONY : ColonAutomaton.o
+
+# target to build an object file
+ColonAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/ColonAutomaton.cpp.o
+.PHONY : ColonAutomaton.cpp.o
+
+ColonAutomaton.i: ColonAutomaton.cpp.i
+.PHONY : ColonAutomaton.i
+
+# target to preprocess a source file
+ColonAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/ColonAutomaton.cpp.i
+.PHONY : ColonAutomaton.cpp.i
+
+ColonAutomaton.s: ColonAutomaton.cpp.s
+.PHONY : ColonAutomaton.s
+
+# target to generate assembly for a file
+ColonAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/ColonAutomaton.cpp.s
+.PHONY : ColonAutomaton.cpp.s
+
 ColonDash.o: ColonDash.cpp.o
 .PHONY : ColonDash.o
 
@@ -152,6 +200,30 @@ ColonDash.s: ColonDash.cpp.s
 ColonDash.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/ColonDash.cpp.s
 .PHONY : ColonDash.cpp.s
+
+CommaAutomaton.o: CommaAutomaton.cpp.o
+.PHONY : CommaAutomaton.o
+
+# target to build an object file
+CommaAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/CommaAutomaton.cpp.o
+.PHONY : CommaAutomaton.cpp.o
+
+CommaAutomaton.i: CommaAutomaton.cpp.i
+.PHONY : CommaAutomaton.i
+
+# target to preprocess a source file
+CommaAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/CommaAutomaton.cpp.i
+.PHONY : CommaAutomaton.cpp.i
+
+CommaAutomaton.s: CommaAutomaton.cpp.s
+.PHONY : CommaAutomaton.s
+
+# target to generate assembly for a file
+CommaAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/CommaAutomaton.cpp.s
+.PHONY : CommaAutomaton.cpp.s
 
 Comment.o: Comment.cpp.o
 .PHONY : Comment.o
@@ -225,6 +297,78 @@ ID.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/ID.cpp.s
 .PHONY : ID.cpp.s
 
+LeftParenAutomaton.o: LeftParenAutomaton.cpp.o
+.PHONY : LeftParenAutomaton.o
+
+# target to build an object file
+LeftParenAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/LeftParenAutomaton.cpp.o
+.PHONY : LeftParenAutomaton.cpp.o
+
+LeftParenAutomaton.i: LeftParenAutomaton.cpp.i
+.PHONY : LeftParenAutomaton.i
+
+# target to preprocess a source file
+LeftParenAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/LeftParenAutomaton.cpp.i
+.PHONY : LeftParenAutomaton.cpp.i
+
+LeftParenAutomaton.s: LeftParenAutomaton.cpp.s
+.PHONY : LeftParenAutomaton.s
+
+# target to generate assembly for a file
+LeftParenAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/LeftParenAutomaton.cpp.s
+.PHONY : LeftParenAutomaton.cpp.s
+
+MultiplyAutomaton.o: MultiplyAutomaton.cpp.o
+.PHONY : MultiplyAutomaton.o
+
+# target to build an object file
+MultiplyAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/MultiplyAutomaton.cpp.o
+.PHONY : MultiplyAutomaton.cpp.o
+
+MultiplyAutomaton.i: MultiplyAutomaton.cpp.i
+.PHONY : MultiplyAutomaton.i
+
+# target to preprocess a source file
+MultiplyAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/MultiplyAutomaton.cpp.i
+.PHONY : MultiplyAutomaton.cpp.i
+
+MultiplyAutomaton.s: MultiplyAutomaton.cpp.s
+.PHONY : MultiplyAutomaton.s
+
+# target to generate assembly for a file
+MultiplyAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/MultiplyAutomaton.cpp.s
+.PHONY : MultiplyAutomaton.cpp.s
+
+PeriodAutomaton.o: PeriodAutomaton.cpp.o
+.PHONY : PeriodAutomaton.o
+
+# target to build an object file
+PeriodAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/PeriodAutomaton.cpp.o
+.PHONY : PeriodAutomaton.cpp.o
+
+PeriodAutomaton.i: PeriodAutomaton.cpp.i
+.PHONY : PeriodAutomaton.i
+
+# target to preprocess a source file
+PeriodAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/PeriodAutomaton.cpp.i
+.PHONY : PeriodAutomaton.cpp.i
+
+PeriodAutomaton.s: PeriodAutomaton.cpp.s
+.PHONY : PeriodAutomaton.s
+
+# target to generate assembly for a file
+PeriodAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/PeriodAutomaton.cpp.s
+.PHONY : PeriodAutomaton.cpp.s
+
 Queries.o: Queries.cpp.o
 .PHONY : Queries.o
 
@@ -249,6 +393,102 @@ Queries.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Queries.cpp.s
 .PHONY : Queries.cpp.s
 
+QuestionMarkAuto.o: QuestionMarkAuto.cpp.o
+.PHONY : QuestionMarkAuto.o
+
+# target to build an object file
+QuestionMarkAuto.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/QuestionMarkAuto.cpp.o
+.PHONY : QuestionMarkAuto.cpp.o
+
+QuestionMarkAuto.i: QuestionMarkAuto.cpp.i
+.PHONY : QuestionMarkAuto.i
+
+# target to preprocess a source file
+QuestionMarkAuto.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/QuestionMarkAuto.cpp.i
+.PHONY : QuestionMarkAuto.cpp.i
+
+QuestionMarkAuto.s: QuestionMarkAuto.cpp.s
+.PHONY : QuestionMarkAuto.s
+
+# target to generate assembly for a file
+QuestionMarkAuto.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/QuestionMarkAuto.cpp.s
+.PHONY : QuestionMarkAuto.cpp.s
+
+RightParenAutomaton.o: RightParenAutomaton.cpp.o
+.PHONY : RightParenAutomaton.o
+
+# target to build an object file
+RightParenAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/RightParenAutomaton.cpp.o
+.PHONY : RightParenAutomaton.cpp.o
+
+RightParenAutomaton.i: RightParenAutomaton.cpp.i
+.PHONY : RightParenAutomaton.i
+
+# target to preprocess a source file
+RightParenAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/RightParenAutomaton.cpp.i
+.PHONY : RightParenAutomaton.cpp.i
+
+RightParenAutomaton.s: RightParenAutomaton.cpp.s
+.PHONY : RightParenAutomaton.s
+
+# target to generate assembly for a file
+RightParenAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/RightParenAutomaton.cpp.s
+.PHONY : RightParenAutomaton.cpp.s
+
+Rules.o: Rules.cpp.o
+.PHONY : Rules.o
+
+# target to build an object file
+Rules.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Rules.cpp.o
+.PHONY : Rules.cpp.o
+
+Rules.i: Rules.cpp.i
+.PHONY : Rules.i
+
+# target to preprocess a source file
+Rules.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Rules.cpp.i
+.PHONY : Rules.cpp.i
+
+Rules.s: Rules.cpp.s
+.PHONY : Rules.s
+
+# target to generate assembly for a file
+Rules.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Rules.cpp.s
+.PHONY : Rules.cpp.s
+
+Scanner.o: Scanner.cpp.o
+.PHONY : Scanner.o
+
+# target to build an object file
+Scanner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Scanner.cpp.o
+.PHONY : Scanner.cpp.o
+
+Scanner.i: Scanner.cpp.i
+.PHONY : Scanner.i
+
+# target to preprocess a source file
+Scanner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Scanner.cpp.i
+.PHONY : Scanner.cpp.i
+
+Scanner.s: Scanner.cpp.s
+.PHONY : Scanner.s
+
+# target to generate assembly for a file
+Scanner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Scanner.cpp.s
+.PHONY : Scanner.cpp.s
+
 Schemes.o: Schemes.cpp.o
 .PHONY : Schemes.o
 
@@ -272,6 +512,54 @@ Schemes.s: Schemes.cpp.s
 Schemes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Schemes.cpp.s
 .PHONY : Schemes.cpp.s
+
+String.o: String.cpp.o
+.PHONY : String.o
+
+# target to build an object file
+String.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/String.cpp.o
+.PHONY : String.cpp.o
+
+String.i: String.cpp.i
+.PHONY : String.i
+
+# target to preprocess a source file
+String.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/String.cpp.i
+.PHONY : String.cpp.i
+
+String.s: String.cpp.s
+.PHONY : String.s
+
+# target to generate assembly for a file
+String.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/String.cpp.s
+.PHONY : String.cpp.s
+
+Undefined.o: Undefined.cpp.o
+.PHONY : Undefined.o
+
+# target to build an object file
+Undefined.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Undefined.cpp.o
+.PHONY : Undefined.cpp.o
+
+Undefined.i: Undefined.cpp.i
+.PHONY : Undefined.i
+
+# target to preprocess a source file
+Undefined.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Undefined.cpp.i
+.PHONY : Undefined.cpp.i
+
+Undefined.s: Undefined.cpp.s
+.PHONY : Undefined.s
+
+# target to generate assembly for a file
+Undefined.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Undefined.cpp.s
+.PHONY : Undefined.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -306,9 +594,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 236project1_0"
+	@echo "... AddAutomaton.o"
+	@echo "... AddAutomaton.i"
+	@echo "... AddAutomaton.s"
+	@echo "... ColonAutomaton.o"
+	@echo "... ColonAutomaton.i"
+	@echo "... ColonAutomaton.s"
 	@echo "... ColonDash.o"
 	@echo "... ColonDash.i"
 	@echo "... ColonDash.s"
+	@echo "... CommaAutomaton.o"
+	@echo "... CommaAutomaton.i"
+	@echo "... CommaAutomaton.s"
 	@echo "... Comment.o"
 	@echo "... Comment.i"
 	@echo "... Comment.s"
@@ -318,12 +615,39 @@ help:
 	@echo "... ID.o"
 	@echo "... ID.i"
 	@echo "... ID.s"
+	@echo "... LeftParenAutomaton.o"
+	@echo "... LeftParenAutomaton.i"
+	@echo "... LeftParenAutomaton.s"
+	@echo "... MultiplyAutomaton.o"
+	@echo "... MultiplyAutomaton.i"
+	@echo "... MultiplyAutomaton.s"
+	@echo "... PeriodAutomaton.o"
+	@echo "... PeriodAutomaton.i"
+	@echo "... PeriodAutomaton.s"
 	@echo "... Queries.o"
 	@echo "... Queries.i"
 	@echo "... Queries.s"
+	@echo "... QuestionMarkAuto.o"
+	@echo "... QuestionMarkAuto.i"
+	@echo "... QuestionMarkAuto.s"
+	@echo "... RightParenAutomaton.o"
+	@echo "... RightParenAutomaton.i"
+	@echo "... RightParenAutomaton.s"
+	@echo "... Rules.o"
+	@echo "... Rules.i"
+	@echo "... Rules.s"
+	@echo "... Scanner.o"
+	@echo "... Scanner.i"
+	@echo "... Scanner.s"
 	@echo "... Schemes.o"
 	@echo "... Schemes.i"
 	@echo "... Schemes.s"
+	@echo "... String.o"
+	@echo "... String.i"
+	@echo "... String.s"
+	@echo "... Undefined.o"
+	@echo "... Undefined.i"
+	@echo "... Undefined.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

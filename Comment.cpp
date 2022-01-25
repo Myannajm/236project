@@ -27,7 +27,8 @@ void CommentAutomaton::S1(const std::string& input) {
         index++;
     }
     if(input[index] == '\n' || input[index] == EOF){
-        inputRead++;
+        //inputRead++;
+        //newLines +=1;
     }
     else {
         Serr();

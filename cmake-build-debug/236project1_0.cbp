@@ -80,13 +80,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/AddAutomaton.cpp">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/AddAutomaton.h">
+			<Option target="236project1_0"/>
+		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Automaton.h">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/ColonAutomaton.cpp">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/ColonAutomaton.h">
 			<Option target="236project1_0"/>
 		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/ColonDash.cpp">
 			<Option target="236project1_0"/>
 		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/ColonDash.h">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/CommaAutomaton.cpp">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/CommaAutomaton.h">
 			<Option target="236project1_0"/>
 		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Comment.cpp">
@@ -107,10 +125,49 @@
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/ID.h">
 			<Option target="236project1_0"/>
 		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/LeftParenAutomaton.cpp">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/LeftParenAutomaton.h">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/MultiplyAutomaton.cpp">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/MultiplyAutomaton.h">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/PeriodAutomaton.cpp">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/PeriodAutomaton.h">
+			<Option target="236project1_0"/>
+		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Queries.cpp">
 			<Option target="236project1_0"/>
 		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Queries.h">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/QuestionMarkAuto.cpp">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/QuestionMarkAuto.h">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/RightParenAutomaton.cpp">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/RightParenAutomaton.h">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Rules.cpp">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Rules.h">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Scanner.cpp">
 			<Option target="236project1_0"/>
 		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Scanner.h">
@@ -122,13 +179,22 @@
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Schemes.h">
 			<Option target="236project1_0"/>
 		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/String.cpp">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/String.h">
+			<Option target="236project1_0"/>
+		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Token.h">
 			<Option target="236project1_0"/>
 		</Unit>
-		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/main.cpp">
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Undefined.cpp">
 			<Option target="236project1_0"/>
 		</Unit>
-		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/singleChar.h">
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Undefined.h">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/main.cpp">
 			<Option target="236project1_0"/>
 		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/CMakeLists.txt">

@@ -6,27 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/myannamoody/CLionProjects/236project1.0/Scanner.h
-string
--
-cctype
--
-vector
--
+/Users/myannamoody/CLionProjects/236project1.0/Automaton.h
 Token.h
 /Users/myannamoody/CLionProjects/236project1.0/Token.h
+
+/Users/myannamoody/CLionProjects/236project1.0/Comment.cpp
+Comment.h
+/Users/myannamoody/CLionProjects/236project1.0/Comment.h
+
+/Users/myannamoody/CLionProjects/236project1.0/Comment.h
+Automaton.h
+/Users/myannamoody/CLionProjects/236project1.0/Automaton.h
 
 /Users/myannamoody/CLionProjects/236project1.0/Token.h
 string
 -
 sstream
 -
-
-/Users/myannamoody/CLionProjects/236project1.0/main.cpp
-iostream
--
-Token.h
-/Users/myannamoody/CLionProjects/236project1.0/Token.h
-Scanner.h
-/Users/myannamoody/CLionProjects/236project1.0/Scanner.h
 
