@@ -2,7 +2,6 @@
 #include <fstream>
 #include <string>
 #include "Scanner.h"
-using namespace std;
 
 int main(int argc, char** argv) {
     std::ifstream in;
