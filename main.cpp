@@ -1,7 +1,11 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include "Scanner.h"
+#include <vector>
+#include "Lexer.h"
+#include "Token.h"
+#include "Automaton.h"
+#include "Parser.h"
 
 int main(int argc, char** argv) {
     std::ifstream in;
@@ -11,15 +15,25 @@ int main(int argc, char** argv) {
     if (argc < 2) {std::cerr << "Please provide name of input file";}
     if (!in) {std::cout << "Unable to open file";}
 
-    Scanner* scanner = new Scanner();
+    Lexer* lexer = new Lexer();
     getline(in, data);
     std::string wholeFile = data;
     while(getline(in, data)){
         wholeFile += '\n'+data;
     };
-    scanner->Run(wholeFile);
-    std::cout << scanner->toString();
+    lexer->Run(wholeFile);
+    //std::cout << lexer->toString();
 
-    delete scanner;
+
+    Parser p(lexer->returnTokens());
+    p.runParser();
+    /*try{
+        p.runParser();
+    }
+    catch(Token wrong){
+        std::cout <<"Failure!" <<std::endl;
+    }*/
+
+    delete lexer;
     return 0;
 }

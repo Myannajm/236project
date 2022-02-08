@@ -2,8 +2,8 @@
 // Created by Myanna Jean Moody on 1/15/22.
 //
 
-#ifndef INC_236PROJECT1_0_SCANNER_H
-#define INC_236PROJECT1_0_SCANNER_H
+#ifndef INC_236PROJECT1_0_LEXER_H
+#define INC_236PROJECT1_0_LEXER_H
 #pragma once
 #include <string>
 #include <cctype>
@@ -11,21 +11,21 @@
 #include "Token.h"
 #include "Automaton.h"
 
-class Scanner {
+class Lexer {
 private:
-    std::vector<Token*> tokens;
+
     std::vector<Automaton*> automata;
     unsigned int line_num;
     void CreateAutomata();
 
 public:
-    Scanner();
-    ~Scanner();
-
-
+    std::vector<Token> tokens;
+    Lexer();
+    ~Lexer();
     void Run(std::string& input);
     std::string toString() const;
+    std::vector<Token> returnTokens(){return tokens;}
 
 };
 
-#endif //INC_236PROJECT1_0_SCANNER_H
+#endif //INC_236PROJECT1_0_LEXER_H

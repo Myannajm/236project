@@ -113,6 +113,9 @@
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Comment.h">
 			<Option target="236project1_0"/>
 		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/DatalogProgram.h">
+			<Option target="236project1_0"/>
+		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Facts.cpp">
 			<Option target="236project1_0"/>
 		</Unit>
@@ -131,16 +134,34 @@
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/LeftParenAutomaton.h">
 			<Option target="236project1_0"/>
 		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Lexer.cpp">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Lexer.h">
+			<Option target="236project1_0"/>
+		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/MultiplyAutomaton.cpp">
 			<Option target="236project1_0"/>
 		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/MultiplyAutomaton.h">
 			<Option target="236project1_0"/>
 		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Parameter.h">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Parser.cpp">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Parser.h">
+			<Option target="236project1_0"/>
+		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/PeriodAutomaton.cpp">
 			<Option target="236project1_0"/>
 		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/PeriodAutomaton.h">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Predicate.h">
 			<Option target="236project1_0"/>
 		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Queries.cpp">
@@ -161,16 +182,13 @@
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/RightParenAutomaton.h">
 			<Option target="236project1_0"/>
 		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Rule.h">
+			<Option target="236project1_0"/>
+		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Rules.cpp">
 			<Option target="236project1_0"/>
 		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Rules.h">
-			<Option target="236project1_0"/>
-		</Unit>
-		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Scanner.cpp">
-			<Option target="236project1_0"/>
-		</Unit>
-		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Scanner.h">
 			<Option target="236project1_0"/>
 		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Schemes.cpp">
@@ -192,6 +210,9 @@
 			<Option target="236project1_0"/>
 		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/Undefined.h">
+			<Option target="236project1_0"/>
+		</Unit>
+		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/endOf.h">
 			<Option target="236project1_0"/>
 		</Unit>
 		<Unit filename="/Users/myannamoody/CLionProjects/236project1.0/main.cpp">

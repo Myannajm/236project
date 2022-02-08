@@ -25,28 +25,40 @@ public:
     Token(TokenType type, std::string value, int line)
     :type(type), value(value), line(line)
     {}
+
+
     std::string typeName(TokenType type) const {
         switch (type){
-            case TokenType::COLON: return "COLON"; break;
-            case TokenType::COLON_DASH: return "COLON_DASH"; break;
-            case TokenType::COMMA: return "COMMA"; break;
-            case TokenType::PERIOD: return "PERIOD"; break;
-            case TokenType::Q_MARK: return "Q_MARK"; break;
-            case TokenType::LEFT_PAREN: return "LEFT_PAREN"; break;
-            case TokenType::RIGHT_PAREN: return "RIGHT_PAREN"; break;
-            case TokenType::MULTIPLY: return "MULTIPLY"; break;
-            case TokenType::ADD: return "ADD"; break;
-            case TokenType::SCHEMES: return "SCHEMES"; break;
-            case TokenType::FACTS: return "FACTS"; break;
-            case TokenType::RULES: return "RULES"; break;
-            case TokenType::QUERIES: return "QUERIES"; break;
-            case TokenType::ID: return "ID"; break;
-            case TokenType::STRING: return "STRING"; break;
-            case TokenType::COMMENT: return "COMMENT"; break;
-            case TokenType::EOF_TYPE: return "EOF"; break;
-            case TokenType::UNDEFINED: return "UNDEFINED"; break;
+            case TokenType::COLON: return "COLON";
+            case TokenType::COLON_DASH: return "COLON_DASH";
+            case TokenType::COMMA: return "COMMA";
+            case TokenType::PERIOD: return "PERIOD";
+            case TokenType::Q_MARK: return "Q_MARK";
+            case TokenType::LEFT_PAREN: return "LEFT_PAREN";
+            case TokenType::RIGHT_PAREN: return "RIGHT_PAREN";
+            case TokenType::MULTIPLY: return "MULTIPLY";
+            case TokenType::ADD: return "ADD";
+            case TokenType::SCHEMES: return "SCHEMES";
+            case TokenType::FACTS: return "FACTS";
+            case TokenType::RULES: return "RULES";
+            case TokenType::QUERIES: return "QUERIES";
+            case TokenType::ID: return "ID";
+            case TokenType::STRING: return "STRING";
+            case TokenType::COMMENT: return "COMMENT";
+            case TokenType::EOF_TYPE: return "EOF";
+            case TokenType::UNDEFINED: return "UNDEFINED";
         }
         return "ERROR";
+    }
+
+    TokenType getToken()const{
+        return type;
+    }
+    std::string getValue() const{
+        return value;
+    }
+    std::string getLine() const{
+        return std::to_string(line);
     }
     std::string toString() const{
         std::stringstream out;

@@ -321,6 +321,30 @@ LeftParenAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/LeftParenAutomaton.cpp.s
 .PHONY : LeftParenAutomaton.cpp.s
 
+Lexer.o: Lexer.cpp.o
+.PHONY : Lexer.o
+
+# target to build an object file
+Lexer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Lexer.cpp.o
+.PHONY : Lexer.cpp.o
+
+Lexer.i: Lexer.cpp.i
+.PHONY : Lexer.i
+
+# target to preprocess a source file
+Lexer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Lexer.cpp.i
+.PHONY : Lexer.cpp.i
+
+Lexer.s: Lexer.cpp.s
+.PHONY : Lexer.s
+
+# target to generate assembly for a file
+Lexer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Lexer.cpp.s
+.PHONY : Lexer.cpp.s
+
 MultiplyAutomaton.o: MultiplyAutomaton.cpp.o
 .PHONY : MultiplyAutomaton.o
 
@@ -344,6 +368,30 @@ MultiplyAutomaton.s: MultiplyAutomaton.cpp.s
 MultiplyAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/MultiplyAutomaton.cpp.s
 .PHONY : MultiplyAutomaton.cpp.s
+
+Parser.o: Parser.cpp.o
+.PHONY : Parser.o
+
+# target to build an object file
+Parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Parser.cpp.o
+.PHONY : Parser.cpp.o
+
+Parser.i: Parser.cpp.i
+.PHONY : Parser.i
+
+# target to preprocess a source file
+Parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Parser.cpp.i
+.PHONY : Parser.cpp.i
+
+Parser.s: Parser.cpp.s
+.PHONY : Parser.s
+
+# target to generate assembly for a file
+Parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Parser.cpp.s
+.PHONY : Parser.cpp.s
 
 PeriodAutomaton.o: PeriodAutomaton.cpp.o
 .PHONY : PeriodAutomaton.o
@@ -464,30 +512,6 @@ Rules.s: Rules.cpp.s
 Rules.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Rules.cpp.s
 .PHONY : Rules.cpp.s
-
-Scanner.o: Scanner.cpp.o
-.PHONY : Scanner.o
-
-# target to build an object file
-Scanner.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Scanner.cpp.o
-.PHONY : Scanner.cpp.o
-
-Scanner.i: Scanner.cpp.i
-.PHONY : Scanner.i
-
-# target to preprocess a source file
-Scanner.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Scanner.cpp.i
-.PHONY : Scanner.cpp.i
-
-Scanner.s: Scanner.cpp.s
-.PHONY : Scanner.s
-
-# target to generate assembly for a file
-Scanner.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/236project1_0.dir/build.make CMakeFiles/236project1_0.dir/Scanner.cpp.s
-.PHONY : Scanner.cpp.s
 
 Schemes.o: Schemes.cpp.o
 .PHONY : Schemes.o
@@ -618,9 +642,15 @@ help:
 	@echo "... LeftParenAutomaton.o"
 	@echo "... LeftParenAutomaton.i"
 	@echo "... LeftParenAutomaton.s"
+	@echo "... Lexer.o"
+	@echo "... Lexer.i"
+	@echo "... Lexer.s"
 	@echo "... MultiplyAutomaton.o"
 	@echo "... MultiplyAutomaton.i"
 	@echo "... MultiplyAutomaton.s"
+	@echo "... Parser.o"
+	@echo "... Parser.i"
+	@echo "... Parser.s"
 	@echo "... PeriodAutomaton.o"
 	@echo "... PeriodAutomaton.i"
 	@echo "... PeriodAutomaton.s"
@@ -636,9 +666,6 @@ help:
 	@echo "... Rules.o"
 	@echo "... Rules.i"
 	@echo "... Rules.s"
-	@echo "... Scanner.o"
-	@echo "... Scanner.i"
-	@echo "... Scanner.s"
 	@echo "... Schemes.o"
 	@echo "... Schemes.i"
 	@echo "... Schemes.s"

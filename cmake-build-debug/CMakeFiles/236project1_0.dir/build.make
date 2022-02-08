@@ -183,18 +183,18 @@ CMakeFiles/236project1_0.dir/Undefined.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236project1_0.dir/Undefined.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/myannamoody/CLionProjects/236project1.0/Undefined.cpp -o CMakeFiles/236project1_0.dir/Undefined.cpp.s
 
-CMakeFiles/236project1_0.dir/Scanner.cpp.o: CMakeFiles/236project1_0.dir/flags.make
-CMakeFiles/236project1_0.dir/Scanner.cpp.o: ../Scanner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/myannamoody/CLionProjects/236project1.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/236project1_0.dir/Scanner.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236project1_0.dir/Scanner.cpp.o -c /Users/myannamoody/CLionProjects/236project1.0/Scanner.cpp
+CMakeFiles/236project1_0.dir/Lexer.cpp.o: CMakeFiles/236project1_0.dir/flags.make
+CMakeFiles/236project1_0.dir/Lexer.cpp.o: ../Lexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/myannamoody/CLionProjects/236project1.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/236project1_0.dir/Lexer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236project1_0.dir/Lexer.cpp.o -c /Users/myannamoody/CLionProjects/236project1.0/Lexer.cpp
 
-CMakeFiles/236project1_0.dir/Scanner.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236project1_0.dir/Scanner.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/myannamoody/CLionProjects/236project1.0/Scanner.cpp > CMakeFiles/236project1_0.dir/Scanner.cpp.i
+CMakeFiles/236project1_0.dir/Lexer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236project1_0.dir/Lexer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/myannamoody/CLionProjects/236project1.0/Lexer.cpp > CMakeFiles/236project1_0.dir/Lexer.cpp.i
 
-CMakeFiles/236project1_0.dir/Scanner.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236project1_0.dir/Scanner.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/myannamoody/CLionProjects/236project1.0/Scanner.cpp -o CMakeFiles/236project1_0.dir/Scanner.cpp.s
+CMakeFiles/236project1_0.dir/Lexer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236project1_0.dir/Lexer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/myannamoody/CLionProjects/236project1.0/Lexer.cpp -o CMakeFiles/236project1_0.dir/Lexer.cpp.s
 
 CMakeFiles/236project1_0.dir/Rules.cpp.o: CMakeFiles/236project1_0.dir/flags.make
 CMakeFiles/236project1_0.dir/Rules.cpp.o: ../Rules.cpp
@@ -313,6 +313,19 @@ CMakeFiles/236project1_0.dir/RightParenAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236project1_0.dir/RightParenAutomaton.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/myannamoody/CLionProjects/236project1.0/RightParenAutomaton.cpp -o CMakeFiles/236project1_0.dir/RightParenAutomaton.cpp.s
 
+CMakeFiles/236project1_0.dir/Parser.cpp.o: CMakeFiles/236project1_0.dir/flags.make
+CMakeFiles/236project1_0.dir/Parser.cpp.o: ../Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/myannamoody/CLionProjects/236project1.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/236project1_0.dir/Parser.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236project1_0.dir/Parser.cpp.o -c /Users/myannamoody/CLionProjects/236project1.0/Parser.cpp
+
+CMakeFiles/236project1_0.dir/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236project1_0.dir/Parser.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/myannamoody/CLionProjects/236project1.0/Parser.cpp > CMakeFiles/236project1_0.dir/Parser.cpp.i
+
+CMakeFiles/236project1_0.dir/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236project1_0.dir/Parser.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/myannamoody/CLionProjects/236project1.0/Parser.cpp -o CMakeFiles/236project1_0.dir/Parser.cpp.s
+
 # Object files for target 236project1_0
 236project1_0_OBJECTS = \
 "CMakeFiles/236project1_0.dir/main.cpp.o" \
@@ -324,7 +337,7 @@ CMakeFiles/236project1_0.dir/RightParenAutomaton.cpp.s: cmake_force
 "CMakeFiles/236project1_0.dir/Schemes.cpp.o" \
 "CMakeFiles/236project1_0.dir/String.cpp.o" \
 "CMakeFiles/236project1_0.dir/Undefined.cpp.o" \
-"CMakeFiles/236project1_0.dir/Scanner.cpp.o" \
+"CMakeFiles/236project1_0.dir/Lexer.cpp.o" \
 "CMakeFiles/236project1_0.dir/Rules.cpp.o" \
 "CMakeFiles/236project1_0.dir/AddAutomaton.cpp.o" \
 "CMakeFiles/236project1_0.dir/ColonAutomaton.cpp.o" \
@@ -333,7 +346,8 @@ CMakeFiles/236project1_0.dir/RightParenAutomaton.cpp.s: cmake_force
 "CMakeFiles/236project1_0.dir/MultiplyAutomaton.cpp.o" \
 "CMakeFiles/236project1_0.dir/PeriodAutomaton.cpp.o" \
 "CMakeFiles/236project1_0.dir/QuestionMarkAuto.cpp.o" \
-"CMakeFiles/236project1_0.dir/RightParenAutomaton.cpp.o"
+"CMakeFiles/236project1_0.dir/RightParenAutomaton.cpp.o" \
+"CMakeFiles/236project1_0.dir/Parser.cpp.o"
 
 # External object files for target 236project1_0
 236project1_0_EXTERNAL_OBJECTS =
@@ -347,7 +361,7 @@ CMakeFiles/236project1_0.dir/RightParenAutomaton.cpp.s: cmake_force
 236project1_0: CMakeFiles/236project1_0.dir/Schemes.cpp.o
 236project1_0: CMakeFiles/236project1_0.dir/String.cpp.o
 236project1_0: CMakeFiles/236project1_0.dir/Undefined.cpp.o
-236project1_0: CMakeFiles/236project1_0.dir/Scanner.cpp.o
+236project1_0: CMakeFiles/236project1_0.dir/Lexer.cpp.o
 236project1_0: CMakeFiles/236project1_0.dir/Rules.cpp.o
 236project1_0: CMakeFiles/236project1_0.dir/AddAutomaton.cpp.o
 236project1_0: CMakeFiles/236project1_0.dir/ColonAutomaton.cpp.o
@@ -357,9 +371,10 @@ CMakeFiles/236project1_0.dir/RightParenAutomaton.cpp.s: cmake_force
 236project1_0: CMakeFiles/236project1_0.dir/PeriodAutomaton.cpp.o
 236project1_0: CMakeFiles/236project1_0.dir/QuestionMarkAuto.cpp.o
 236project1_0: CMakeFiles/236project1_0.dir/RightParenAutomaton.cpp.o
+236project1_0: CMakeFiles/236project1_0.dir/Parser.cpp.o
 236project1_0: CMakeFiles/236project1_0.dir/build.make
 236project1_0: CMakeFiles/236project1_0.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/myannamoody/CLionProjects/236project1.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable 236project1_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/myannamoody/CLionProjects/236project1.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable 236project1_0"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/236project1_0.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

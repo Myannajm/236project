@@ -1,7 +1,7 @@
 //
 // Created by Myanna Jean Moody on 1/21/22.
 //
-#include "Scanner.h"
+#include "Lexer.h"
 #include "Token.h"
 #include "ColonDash.h"
 #include "ColonAutomaton.h"
@@ -20,15 +20,16 @@
 #include "String.h"
 #include "Comment.h"
 #include "Undefined.h"
+#include "endOf.h"
 #include <cctype>
 #include <string>
 #include <vector>
 using namespace std;
 
-Scanner::Scanner() {
+Lexer::Lexer() {
     CreateAutomata();
 }
-Scanner::~Scanner() {
+Lexer::~Lexer() {
     //prevent memory leaks by clearing out dynamic vectors
     while(!tokens.empty()){
         tokens.pop_back();
@@ -37,7 +38,7 @@ Scanner::~Scanner() {
         automata.pop_back();
     }
 }
-void Scanner::CreateAutomata() {
+void Lexer::CreateAutomata() {
     automata.push_back(new ColonAutomaton());
     automata.push_back(new ColonDashAutomaton());
     automata.push_back(new CommaAutomaton());
@@ -55,8 +56,9 @@ void Scanner::CreateAutomata() {
     automata.push_back(new CommentAutomaton());
     automata.push_back(new IDAutomaton());
     automata.push_back(new UndefinedAutomaton());
+    automata.push_back(new endAutomaton());
 }
-void Scanner::Run(std::string& input){
+void Lexer::Run(std::string& input){
     if(input.empty()){
         line_num = 0;
     }
@@ -65,12 +67,13 @@ void Scanner::Run(std::string& input){
     }
     // TODO: convert this pseudo-code with the algorithm into actual C++ code
     char c;
+    Automaton* max_automata;
     for (unsigned int i = 0; i < input.length(); i++){
         c = input[i];
         std::string tokenInfo;
         unsigned int maxRead = 0;
         unsigned int inputRead = 0;
-        Automaton* max_automata;
+
         //DEAL WITH WHITESPACE
 
         if(isspace(c)){
@@ -92,32 +95,36 @@ void Scanner::Run(std::string& input){
         // Here is the "Max" part of the algorithm
         if(maxRead > 0) {
             tokenInfo = input.substr(i, maxRead);
-            Token* newToken = max_automata->CreateToken(tokenInfo, line_num);
+            Token newToken = max_automata->CreateToken(tokenInfo, line_num);
             line_num += max_automata->NewLinesRead();
-            tokens.push_back(newToken);
+            //.push_back(newToken);
+            if(max_automata != automata.at(14)){
+                tokens.push_back(newToken);
+            }
+
         }
         else {
             maxRead = 1;
             max_automata = new UndefinedAutomaton();
-            Token* undefinedToken = max_automata->CreateToken(input.substr(i,1), line_num);
+            Token undefinedToken = max_automata->CreateToken(input.substr(i,1), line_num);
             tokens.push_back(undefinedToken);
         }
         if(!input.empty()){
             i += maxRead-1;
         }
     }
+    max_automata = new endAutomaton();
+    Token endOf = max_automata->CreateToken("", line_num+1);
+    tokens.push_back(endOf);
 }
 
-std::string Scanner::toString() const{
+std::string Lexer::toString() const{
     std::string printMe = "";
     for(unsigned int m = 0; m < tokens.size(); ++m){
-        printMe += tokens.at(m)->toString() + "\n";
+        printMe += tokens.at(m).toString() + "\n";
     }
-    //can't push back EOF value --> why?
-    printMe += "(EOF,\"\"," + std::to_string(line_num+1) + ")" + "\n";
-
     printMe += "Total Tokens = ";
-    printMe += std::to_string(tokens.size()+1) + "\n";
+    printMe += std::to_string(tokens.size()) + "\n";
     return printMe;
 }
 

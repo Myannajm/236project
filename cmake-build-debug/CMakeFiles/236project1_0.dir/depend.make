@@ -41,10 +41,41 @@ CMakeFiles/236project1_0.dir/LeftParenAutomaton.cpp.o: \
  ../LeftParenAutomaton.cpp \
  ../LeftParenAutomaton.h \
  ../Token.h
+CMakeFiles/236project1_0.dir/Lexer.cpp.o: \
+ ../AddAutomaton.h \
+ ../Automaton.h \
+ ../ColonAutomaton.h \
+ ../ColonDash.h \
+ ../CommaAutomaton.h \
+ ../Comment.h \
+ ../Facts.h \
+ ../ID.h \
+ ../LeftParenAutomaton.h \
+ ../Lexer.cpp \
+ ../Lexer.h \
+ ../MultiplyAutomaton.h \
+ ../PeriodAutomaton.h \
+ ../Queries.h \
+ ../QuestionMarkAuto.h \
+ ../RightParenAutomaton.h \
+ ../Rules.h \
+ ../Schemes.h \
+ ../String.h \
+ ../Token.h \
+ ../Undefined.h \
+ ../endOf.h
 CMakeFiles/236project1_0.dir/MultiplyAutomaton.cpp.o: \
  ../Automaton.h \
  ../MultiplyAutomaton.cpp \
  ../MultiplyAutomaton.h \
+ ../Token.h
+CMakeFiles/236project1_0.dir/Parser.cpp.o: \
+ ../DatalogProgram.h \
+ ../Parameter.h \
+ ../Parser.cpp \
+ ../Parser.h \
+ ../Predicate.h \
+ ../Rule.h \
  ../Token.h
 CMakeFiles/236project1_0.dir/PeriodAutomaton.cpp.o: \
  ../Automaton.h \
@@ -71,28 +102,6 @@ CMakeFiles/236project1_0.dir/Rules.cpp.o: \
  ../Rules.cpp \
  ../Rules.h \
  ../Token.h
-CMakeFiles/236project1_0.dir/Scanner.cpp.o: \
- ../AddAutomaton.h \
- ../Automaton.h \
- ../ColonAutomaton.h \
- ../ColonDash.h \
- ../CommaAutomaton.h \
- ../Comment.h \
- ../Facts.h \
- ../ID.h \
- ../LeftParenAutomaton.h \
- ../MultiplyAutomaton.h \
- ../PeriodAutomaton.h \
- ../Queries.h \
- ../QuestionMarkAuto.h \
- ../RightParenAutomaton.h \
- ../Rules.h \
- ../Scanner.cpp \
- ../Scanner.h \
- ../Schemes.h \
- ../String.h \
- ../Token.h \
- ../Undefined.h
 CMakeFiles/236project1_0.dir/Schemes.cpp.o: \
  ../Automaton.h \
  ../Schemes.cpp \
@@ -110,6 +119,11 @@ CMakeFiles/236project1_0.dir/Undefined.cpp.o: \
  ../Undefined.h
 CMakeFiles/236project1_0.dir/main.cpp.o: \
  ../Automaton.h \
- ../Scanner.h \
+ ../DatalogProgram.h \
+ ../Lexer.h \
+ ../Parameter.h \
+ ../Parser.h \
+ ../Predicate.h \
+ ../Rule.h \
  ../Token.h \
  ../main.cpp
