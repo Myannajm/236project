@@ -29,7 +29,7 @@ public:
         for(unsigned int i = 0; i < parameters.size()-1; ++i){
             out += parameters.at(i).toString() + ",";
         }
-        out += parameters.back().toString() + ")" + "\n";
+        out += parameters.back().toString() + ")";
         return out;
     }
 };

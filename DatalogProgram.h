@@ -34,48 +34,52 @@ public:
             }
         }
     }
-    std::string printScheme(){
+    std::string printScheme(std::vector<Predicate> schemes){
         std::stringstream out;
         out << "Schemes(" << schemes.size() << "):" << "\n";
         for(unsigned int i = 0; i < schemes.size(); ++i){
-            out << schemes.at(i).predToString() << "\n";
+            out << "  " << schemes.at(i).predToString() << "\n";
         }
         return out.str();
     }
-    std::string printFacts(){
+    std::string printFacts(std::vector<Predicate> facts){
         std::stringstream out;
         out << "Facts(" << facts.size() << "):" << "\n";
         for(unsigned int i = 0; i < facts.size(); ++i){
-            out << facts.at(i).predToString() << "\n";
+            out << "  " << facts.at(i).predToString()  << "." << "\n";
         }
         return out.str();
     }
-    std::string printRules(){
+    std::string printRules(std::vector<Rule> rules){
         std::stringstream out;
-        out << "Rules(" << rules.size() << "):" << "\n" << rules.at(0).headString() << "\n";
-        for(unsigned int i = 1; i < rules.size(); ++i){
-            out << rules.at(i).ruleToString() << "\n";
+        out << "Rules(" << rules.size() << "):" << "\n";
+        for(unsigned int i = 0; i < rules.size(); ++i){
+            out << "  " << rules.at(i).headString() << " :- " << rules.at(i).bodyToString() << "\n";
         }
         return out.str();
     }
-    std::string printQueries(){
+    std::string printQueries(std::vector<Predicate> queries){
         std::stringstream out;
         out << "Queries(" << queries.size() << "):" << "\n";
-        for(unsigned int i = 1; i < queries.size(); ++i){
-            out << queries.at(i).predToString() << "\n";
+        for(unsigned int i = 0; i < queries.size(); ++i){
+            out << "  " << queries.at(i).predToString() << "?" << "\n";
         }
         return out.str();
     }
 
     std::string dataToString(){
         std::stringstream out;
+        setDomain();
         out << "Success!" << "\n";
-        out << printScheme() << printFacts() << printRules() << printQueries();
-        /*out << "Domain(" << domains.size() << "):";
+        out << printScheme(schemes);
+        out << printFacts(facts);
+        out << printRules(rules);
+        out << printQueries(queries);
+        out << "Domain(" << domains.size() << "):";
         std::set<std::string>::const_iterator iter = domains.begin();
         for(iter = domains.begin(); iter!=domains.end();++iter){
             out << "\n" << *iter;
-        }*/
+        }
         return out.str();
     }
 

@@ -40,7 +40,7 @@ public:
     void parseQueryList(vector<Predicate>& query);
     Predicate parseHeadPredicate();
     Predicate parsePredicate();
-    void parsePredList(std::vector<Predicate> body);
+    void parsePredList(std::vector<Predicate>& body);
     void parseParamList(Predicate& p);
     void parseStringList(Predicate& s);
     Parameter parseParameter();

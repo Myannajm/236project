@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/myannamoody/CLionProjects/236project1.0/Automaton.h
+Token.h
+/Users/myannamoody/CLionProjects/236project1.0/Token.h
+
 /Users/myannamoody/CLionProjects/236project1.0/DatalogProgram.h
 vector
 -
@@ -25,6 +29,18 @@ iterator
 -
 algorithm
 -
+
+/Users/myannamoody/CLionProjects/236project1.0/Lexer.h
+string
+-
+cctype
+-
+vector
+-
+Token.h
+/Users/myannamoody/CLionProjects/236project1.0/Token.h
+Automaton.h
+/Users/myannamoody/CLionProjects/236project1.0/Automaton.h
 
 /Users/myannamoody/CLionProjects/236project1.0/Parameter.h
 Token.h
@@ -83,4 +99,22 @@ string
 -
 sstream
 -
+
+/Users/myannamoody/CLionProjects/236project1.0/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+Lexer.h
+/Users/myannamoody/CLionProjects/236project1.0/Lexer.h
+Token.h
+/Users/myannamoody/CLionProjects/236project1.0/Token.h
+Automaton.h
+/Users/myannamoody/CLionProjects/236project1.0/Automaton.h
+Parser.h
+/Users/myannamoody/CLionProjects/236project1.0/Parser.h
 

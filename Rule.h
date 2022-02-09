@@ -11,19 +11,19 @@
 
 class Rule{
 protected:
-    std::string headName;
     Predicate headPredicate;
     std::vector<Predicate> bodyPredicates;
 public:
-    Rule(Predicate headPredicate, std::vector<Predicate> body) : headPredicate(headPredicate), bodyPredicates(body) {}
+    Rule(Predicate headPredicate, std::vector<Predicate>& body) : headPredicate(headPredicate), bodyPredicates(body) {}
     //void addBP(Predicate &p){bodyPredicates.push_back(p);}
 
     std::string headString(){return headPredicate.predToString();}
-    std::string ruleToString(){
+    std::string bodyToString(){
         std::string out;
         for(unsigned int i = 0; i < bodyPredicates.size()-1; ++i){
-            out += bodyPredicates.at(i).predToString();
+            out += bodyPredicates.at(i).predToString() + ",";
         }
+        out += bodyPredicates.back().predToString() + ".";
         return out;
     }
 };

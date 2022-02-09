@@ -26,13 +26,14 @@ int main(int argc, char** argv) {
 
 
     Parser p(lexer->returnTokens());
-    p.runParser();
-    /*try{
+    //p.runParser()
+    try{
         p.runParser();
     }
     catch(Token wrong){
         std::cout <<"Failure!" <<std::endl;
-    }*/
+        std::cout << "  " << wrong.toString();
+    }
 
     delete lexer;
     return 0;

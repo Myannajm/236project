@@ -19,14 +19,13 @@ void Parser::throwError() {
 }
 
 std::string Parser::match(TokenType t){
-    //std::cout << "match: " << t << std::endl;
     if (tokenType() == t){
         std::string returnVal = tokens.at(index).getValue();
         index++;
         return returnVal;
     }
     else{
-        throwError();
+        throw tokens.at(index);
     }
     return "";
 }
@@ -63,12 +62,11 @@ Rule Parser::parseRule(){
 }
 Predicate Parser::parseQuery(){
     Predicate p(parsePredicate());
-    p.addValue(match(Q_MARK));
+    match(Q_MARK);
     return p;
 }
 void Parser::parseSchemeList(std::vector<Predicate>& scheme){
     if(tokenType() == FACTS){return;}
-    //is the parser advancing?
     scheme.push_back(parseScheme());
     parseSchemeList(scheme);
 }
@@ -96,23 +94,27 @@ Predicate Parser::parseHeadPredicate(){
     return hp;
 }
 Predicate Parser::parsePredicate(){
-    Predicate p(match(ID));
+    Predicate pred(match(ID));
     match(LEFT_PAREN);
-    p.addValue(parseParameter());
-    parseParamList(p);
+    pred.addValue(parseParameter());
+    parseParamList(pred);
     match(RIGHT_PAREN);
-    return p;
+    return pred;
 }
-void Parser::parsePredList(std::vector<Predicate> body){
-    match(COMMA);
-    body.push_back(parsePredicate());
-    parsePredList(body);
+void Parser::parsePredList(std::vector<Predicate>& body){
+    if(tokenType() == COMMA){
+        match(COMMA);
+        body.push_back(parsePredicate());
+        parsePredList(body);
+    }
+
 }
 void Parser::parseParamList(Predicate& p){
-    match(COMMA);
-    p.addValue(parseParameter());
-    parseParamList(p);
-
+    if(tokenType() == COMMA){
+        match(COMMA);
+        p.addValue(parseParameter());
+        parseParamList(p);
+    }
 }
 void Parser::parseStringList(Predicate& s){
     if (tokenType() == COMMA){
@@ -130,11 +132,9 @@ void Parser::parseIdList(Predicate &p) {
 }
 Parameter Parser::parseParameter(){
     if(tokenType() == STRING ){
-        index++;
         return match(STRING);
     }
     else if(tokenType() == ID){
-        index++;
         return match(ID);
     }
     return match(UNDEFINED);
@@ -148,24 +148,19 @@ DatalogProgram Parser::parseDatalog() {
 
     match(SCHEMES);
     match(COLON);
-    scheme.push_back(parseScheme());
-    //std::cout << scheme.at(0).predToString();
     parseSchemeList(scheme);
+
     match(FACTS);
     match(COLON);
-    fact.push_back(parseFact());
-    //std::cout << fact.at(0).predToString();
     parseFactList(fact);
-    /*match(RULES);
+
+    match(RULES);
     match(COLON);
-    rule.push_back(parseRule());
-    std::cout << rule.at(0).headString() << std::endl;
     parseRuleList(rule);
+
     match(QUERIES);
     match(COLON);
-    query.push_back(parseQuery());
-    std::cout << query.at(0).predToString() << std::endl;
-    parseQueryList(query);*/
+    parseQueryList(query);
 
     DatalogProgram datalog_program(scheme, fact, query, rule);
     return datalog_program;
@@ -174,7 +169,5 @@ DatalogProgram Parser::parseDatalog() {
 void Parser::runParser(){
     std::cout << "running the parser..." << std::endl;
     DatalogProgram dp = parseDatalog();
-    std::cout << dp.printScheme();
-    std::cout << dp.printFacts();
-    //dp.dataToString();
+    std::cout << dp.dataToString();
 }
